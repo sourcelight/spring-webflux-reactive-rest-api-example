@@ -71,7 +71,7 @@ CLI commands:
 psql -h <REMOTE HOST> -p <REMOTE PORT> -U <DB_USER> <DB_NAME>
 psql -h 127.0.0.1 -p 5432 -U test_user test
 #list all databases
-/l
+\l
 #connect to a certain database
 \c <db name>
 #list all tables in the current database using your search_path
